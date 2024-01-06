@@ -5,4 +5,4 @@ def drop_first_last(grades):
 
 
 drop_first_last([65, 76, 98, 54, 21])
-drop_first_last([65, 76, 98, 54, 21, 54, 65, 99, 88, 78])
+drop_first_last([65, 76, 98, 54, 21, 54, 65, 99, 88, 78, 99])
