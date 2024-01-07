@@ -1,5 +1,5 @@
 stocks = {
-    'Aapl': 201,
+    'AAPL': 201,
     'IBM': 400,
     'Google': 700,
     'Microsoft': 1010,
@@ -15,6 +15,6 @@ stocks = {
 print(min(stocks))  # it takes the key insteadof value i.e. the minimum in alphabetical order i.e. Aapl
 print(min(stocks.values()))  # it takes the stock minimum value
 
-# (201 ,aapl) (400, IBM) creating a variable min_price to store data in this format and print
+# (201 ,AAPL) (400, IBM) creating a variable min_price to store data in this format and print
 min_price = min(zip(stocks.values(), stocks.keys()))
 print(min_price)
